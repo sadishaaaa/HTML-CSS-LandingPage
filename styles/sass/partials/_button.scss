@@ -1,4 +1,5 @@
 .btn {
+  width: fit-content;
   font-weight: 600;
   border-radius: 8px;
   border: none;
@@ -9,5 +10,14 @@
   &.small {
     padding: 12px 24px;
     line-height: 20px;
+  }
+  &.big {
+    font-size: 18px;
+    padding: 24px 32px;
+  }
+  //outlined button
+  &.outlined {
+    background-color: transparent;
+    border: 1px solid #fff;
   }
 }

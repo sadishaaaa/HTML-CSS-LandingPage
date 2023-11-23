@@ -1,0 +1,21 @@
+footer {
+  color: $black;
+}
+.footer {
+  &__last-content {
+    display: flex;
+  }
+  &__links {
+    display: flex;
+  }
+
+  &__form {
+    display: flex;
+    flex-direction: column;
+  }
+}
+.footer_link {
+  list-style-type: none;
+  text-align: left;
+  padding-left: 0;
+}

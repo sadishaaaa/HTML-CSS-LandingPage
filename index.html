@@ -4,11 +4,19 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href=" " />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
 
     <link rel="stylesheet" href="styles/style.css" />
   </head>
   <body>
-    <header>
+    <header class="bg-primary">
       <div class="container header">
         <!-- logo -->
         <h1 class="header__logo">
@@ -34,10 +42,105 @@
             </li>
           </ul>
         </nav>
-        <div class="burger_icon"><a href="#"><img src="./assets/Icons/Burger.svg" alt="XYZ-corp" /></a></div>
+        <div class="header__burger-icon">
+          <a href="#"><img src="./assets/Icons/Burger.svg" alt="XYZ-corp" /></a>
+        </div>
       </div>
+      <main class="bg-primary">
+        <div class="container hero">
+          <div class="hero__content-left">
+            <div class="hero-title">
+              <h1>Discover Financial Freedom with LegacyLine</h1>
+            </div>
+            <div class="hero-info">
+              <p>
+                Welcome to our bank's website, where we provide secure financial
+                solutions tailored to meet your unique needs.
+              </p>
+            </div>
+            <div class="hero__button">
+              <button class="btn small">Open Bank Account</button>
+              <button class="btn small">Learn more</button>
+            </div>
+            <div class="hero__content-stats">
+              <div class="stats">
+                <h2 class="stats__info">0.1%</h2>
+                <span class="stats__title">Transaction Fees</span>
+              </div>
+              <div class="stats">
+                <h2 class="stats__info">14%</h2>
+                <span class="stats__title">Savings Percentage</span>
+              </div>
+              <div class="stats">
+                <h2 class="stats">+2.9M</h2>
+                <span class="stats__title">Bussiness Owner</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="last-content">
+          <img src="./assets/img/phoneCard.svg" alt="mobile phone" />
+        </div>
+      </main>
     </header>
-    <main></main>
-    <footer></footer>
+    <footer>
+      <div class="container footer">
+        <div class="footer__content">
+          <h2>Subscribe to our new letter</h2>
+          <p>
+            I've been using LegacyLine for several years now, and I couldn't be
+            happier with their services. The mobile banking app they provide.
+          </p>
+          <form class="footer__form">
+            <input
+              type="email"
+              name="email"
+              placeholder="Enter your mail..."
+              minlength="2"
+              width="2"
+              required
+            />
+            <button class="btn">Subscribe</button>
+          </form>
+        </div>
+        <div class="footer__links">
+          <div class="footer-menu">
+            <h2>Menu</h2>
+            <ul class="footer_link">
+              <li>
+                <a href="">Home</a>
+              </li>
+              <li>
+                <a href="">Services</a>
+              </li>
+              <li><a href="">Open Bank Account</a></li>
+            </ul>
+          </div>
+          <div class="footer-Help">
+            <h2>Help</h2>
+            <ul class="footer_link">
+              <li>
+                <a href="">About us</a>
+              </li>
+              <li>
+                <a href="">Contact</a>
+              </li>
+              <li><a href="">Support</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer__last-content">
+          <div class="icons">
+            <a href=""><i class="fa-brands fa-facebook"></i></a>
+            <a href=""><i class="fa-brands fa-facebook"></i></a>
+            <a href=""><i class="fa-brands fa-facebook"></i></a>
+          </div>
+          <div class="policy">
+            <a href="">Privacy and Policy</a>
+          </div>
+          <div class="right-reserved">2023.All Rights Reserved</div>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
