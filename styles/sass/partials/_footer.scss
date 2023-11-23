@@ -2,9 +2,6 @@ footer {
   color: $black;
 }
 .footer {
-  &__last-content {
-    display: flex;
-  }
   &__links {
     display: flex;
   }
@@ -12,10 +9,26 @@ footer {
   &__form {
     display: flex;
     flex-direction: column;
+    gap: 30px;
   }
 }
 .footer_link {
   list-style-type: none;
   text-align: left;
   padding-left: 0;
+}
+.footer__privacy {
+  display: flex;
+  justify-content: space-between;
+}
+
+.form-control {
+  width: 100%;
+  padding: 1rem 0.5rem;
+  border: none;
+  border-bottom: 1px solid grey;
+
+  &:focus {
+    outline: none;
+  }
 }

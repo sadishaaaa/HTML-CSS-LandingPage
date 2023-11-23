@@ -11,11 +11,8 @@
     .header__burger-icon {
       display: none;
     }
-    .hero {
-      &__button {
-        flex-direction: column;
-      }
-    }
+    
+    
   }
   @media screen and (min-width: 1440px) {
     padding: 0;
